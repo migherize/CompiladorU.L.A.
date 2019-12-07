@@ -9,6 +9,12 @@ with open(fname) as f:
 lexer = Lexer().get_lexer()
 tokens = lexer.lex(text_input)
 
+lexer2 = Lexer().get_lexer()
+tokens2 = lexer2.lex(text_input)
+
+for toke in tokens2:
+	print(toke)
+
 codegen = CodeGen()
 
 module = codegen.module
