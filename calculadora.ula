@@ -1,0 +1,17 @@
+
+A:doble
+B:doble
+
+A <- 10
+B <- 20
+
+
+suma <- A + B
+resta <- A - B
+producto <- A * B
+cociente <- A / B
+
+mostrar(suma)
+mostrar(resta)
+mostrar(producto)
+mostrar(cociente)

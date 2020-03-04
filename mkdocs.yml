@@ -1,0 +1,44 @@
+site_name: ULA
+site_description: 'Documentación Lenguaje ULA'
+site_url: 'https://juliolugo96.github.io/ula-lang/'
+site_author: 'Julio Lugo'
+
+repo_name: 'juliolugo96/ula-lang'
+repo_url: 'https://github.com/juliolugo96/ula-lang'
+
+copyright: 'Copyright &copy; 2020 Julio Lugo'
+
+nav:
+  - ULA: index.md
+  - Ejemplos: examples.md
+  - Funcionalidades:
+    - Sintaxis: features/syntax.md
+    - Palabras clave: features/keywords.md
+    - Control de flujo: features/flow_control.md
+  - Licencia: license.md
+
+extra_css:
+    - css/extra.css
+
+theme: 
+  name: 'material'
+  palette: 
+    primary: 'blue'
+    accent: 'blue'
+  font:
+    text: 'Noto Sans'
+    code: 'Roboto Mono'
+  logo:
+    icon: 'book'
+  language: 'es'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - toc:
+      permalink: False
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.inlinehilite

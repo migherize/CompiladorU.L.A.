@@ -1,0 +1,12 @@
+A <- 10.5
+B <- 20.5
+
+suma <- 10+5*3
+mostrar(suma)
+
+si A < B
+	mostrar(B)
+si_no A > B
+	mostrar(A)
+de_lo_contrario
+	mostrar("iguales")
