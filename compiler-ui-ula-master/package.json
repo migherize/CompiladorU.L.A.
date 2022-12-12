@@ -12,7 +12,7 @@
     "buefy": "^0.8.10",
     "core-js": "^3.4.4",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "sass-loader": "^8.0.2",
     "vue": "^2.6.10",
     "vue-code-highlight": "^0.7.4"
